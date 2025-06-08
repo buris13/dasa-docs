@@ -24,7 +24,8 @@ export default defineConfig({
         text: 'Other',
         collapsed: true,
         items: [
-          { text: 'XRDP and XFCE', link: '/md/xrdp-xfce' }
+          { text: 'XRDP and XFCE', link: '/md/xrdp-xfce' },
+          { text: 'Limit', link: '/md/limit'}
         ]
       }
     ],
