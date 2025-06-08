@@ -18,11 +18,20 @@ export default defineConfig({
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
+      },
+
+      {
+        text: 'Other',
+        collapsed: true,
+        items: [
+          { text: 'XRDP and XFCE', link: '/md/xrdp-xfce' }
+        ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/buris13' },
+      { icon: 'twitter', link: 'https://twitter.com/bawaperut' }
     ]
   }
 })
